@@ -10,7 +10,7 @@ Dockerfile is included to package the app as docker container.
 
 * docker build .
 * docker images
-* docker run -p 5000 &lt;image_id&gt;
+* docker run -p 5000:5000 &lt;image_id&gt;
 * docker ps
 * docker stop &lt;container_id&gt;
 
