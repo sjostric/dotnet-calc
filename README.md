@@ -5,6 +5,11 @@ A Java developers adventures in .NET.
 Generated app skeleton + modifications; similar to this:
 https://docs.asp.net/en/latest/client-side/yeoman.html
 
+## Command line
+Running using dotnet on Ubuntu.
+* dotnet restore
+* dotnet run
+
 ## Docker
 Dockerfile is included to package the app as docker container.
 
@@ -13,6 +18,11 @@ Dockerfile is included to package the app as docker container.
 * docker run -p 5000:5000 &lt;image_id&gt;
 * docker ps
 * docker stop &lt;container_id&gt;
+
+## Test the application
+Do REST request to, e.g:
+* http://localhost:5000/api/calc/add/5/3
+* http://localhost:5000/api/calc/sub/7/4
 
 ## Yeoman generated docs
 
