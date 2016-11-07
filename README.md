@@ -7,11 +7,12 @@ https://docs.asp.net/en/latest/client-side/yeoman.html
 
 ## Docker
 Dockerfile is included to package the app as docker container.
-docker build .
-docker images
-docker run <image>
-docker ps
-docker stop <container>
+
+* docker build .
+* docker images
+* docker run <image>
+* docker ps
+* docker stop <container>
 
 ## Yeoman generated docs
 
