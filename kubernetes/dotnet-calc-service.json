@@ -1,0 +1,20 @@
+{
+    "kind": "Service",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "dotnet-calc-service"
+    },
+    "spec": {
+        "selector": {
+            "app": "dotnet-calc"
+        },
+        "ports": [
+            {
+                "protocol": "TCP",
+                "port": 80,
+                "targetPort": 5000 
+            }
+        ],
+        "type": "LoadBalancer"
+    }
+}

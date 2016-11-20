@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: dotnet-calc-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: dotnet-calc
+    spec:
+      containers:
+      - name: dotnet-calc
+        image: eu.gcr.io/burnished-fold-149817/dotnet-calc:v1
+        ports:
+        - containerPort: 5000
