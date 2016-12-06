@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Calc.Domain;
 
 namespace Calc.Controlleris
 {
@@ -12,7 +13,7 @@ namespace Calc.Controlleris
         [HttpGet("add/{a}/{b}")]
         public string addition(int a, int b)
         {
-            return (a+b).ToString();
+            return new Calculator().add(a, b).ToString();
         }
 
         [HttpGet("sub/{a}/{b}")]
