@@ -8,7 +8,8 @@ https://docs.asp.net/en/latest/client-side/yeoman.html
 ## Command line
 Running using dotnet on Ubuntu.
 * dotnet restore
-* dotnet run
+* dotnet test test
+* cd src/Calc && dotnet run
 
 ## Docker
 Dockerfile is included to package the app as docker container.
