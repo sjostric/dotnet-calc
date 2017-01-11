@@ -7,7 +7,7 @@ using Calc.Domain;
 
 namespace Calc.Controlleris
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class CalcController : Controller
     {
         [HttpGet("add/{a}/{b}")]

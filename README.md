@@ -25,6 +25,10 @@ Do REST request to, e.g:
 * http://localhost:5000/api/calc/add/5/3
 * http://localhost:5000/api/calc/sub/7/4
 
+## Kubernetes
+* kubectl create -f calc-app-deployment.yaml,calc-app-service.json
+* kubectl autoscale --max=3 --cpu-percent=50 -f calc-app-deployment.yaml 
+
 ## Yeoman generated docs
 
 ### This application consists of:
