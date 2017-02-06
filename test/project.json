@@ -9,7 +9,9 @@
     "dotnet-test-xunit": "1.0.0-rc2-build10015",
     "Calc": {
       "target": "project"
-    }
+    },
+    // integration testing deps
+    "Microsoft.AspNetCore.TestHost": "1.1.0"
   },
   "testRunner": "xunit",
   "frameworks": {
