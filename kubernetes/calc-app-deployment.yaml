@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: dotnet-calc
-        image: eu.gcr.io/burnished-fold-149817/dotnet-calc:v2
+        image: sjostric/calc-app:1.0.0-SNAPSHOT
         ports:
         - containerPort: 5000
